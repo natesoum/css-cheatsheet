@@ -1,0 +1,26 @@
+:root {
+    --pink: rgb(232, 102, 236);
+    --white: #fff;
+
+}
+
+body {
+    background: darkgray;
+}
+
+header {
+    text-align: center;
+    color: var(--pink);
+}
+
+#description {
+    text-align: center;
+    color: var(--white);
+    padding: 0px 100px 0px 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
